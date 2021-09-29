@@ -1,0 +1,16 @@
+{
+  "name": "node-paypal",
+  "version": "1.0.0",
+  "description": "paypal integration in nodeJA",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon node src/app.js"
+  },
+  "author": "Jenish MS",
+  "license": "ISC",
+  "dependencies": {
+    "@paypal/checkout-server-sdk": "^1.0.3",
+    "express": "^4.17.1"
+  }
+}
